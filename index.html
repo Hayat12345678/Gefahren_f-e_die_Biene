@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Wirkung von pestiziden und Umweltverschmutzung auf Bienen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Die Wirkung von pestiziden und Umweltverschmutzung auf Bienen</h1>
+    <ol>
+        <li><a href="Gefahren für die Bienen.html">Gefahren für die Bienen.</a></li>
+        <img src="https://honig-und-bienen.de/wp-content/uploads/2017/12/bienenschutz-varroa.jpg" class="bild">
+        <li>
+            <a href="Chemie.html">Böden im Burnout – wie Chemie Bienen und Äcker bedroht</a>
+        </li>
+        <img src="https://www.umweltkalender-berlin.de/picture/w678h509/27123_dji_4204805_640.jpg">
+        <li><a href="Varoamilbe.html">Varroa-Milben schwächen die Bienen und bringen Erreger mit</a></li>
+        <img src="https://img.br.de/280c5590-4adc-4db6-b7cd-76a2f4259ab9.jpeg?rect=1%2C320%2C2125%2C1195">
+
+    </ol>
+    <h2>Petition</h2>
+    <!-- TODO: Liste wird alphabetisch sortiert angezeigt -->
+    <!-- TODO: Button - Nutzer kann die Liste absteigend sortieren -->
+    <!-- TODO: includes? Fängt Doppeleintragungen ab -->
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input onclick="addPersonToPetition()" type="button" value="Submit">
+    </form>
+    <button onclick="sortPetition()">Sortieren</button>
+    <ul id="petition">
+    </ul>
+    <!-- JavaScript Verknüpfung-->
+    <script src="index.js"></script>
+    
+</body>
+</html>

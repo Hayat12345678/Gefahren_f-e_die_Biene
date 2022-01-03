@@ -1,0 +1,41 @@
+html{
+    background-color: rgb(230, 230, 224);
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(25, 25, 121);
+}
+
+p, li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(18, 122, 122);
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+#go-back  {
+    background-color: rgb(3, 49, 49);
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+li {
+    margin-top: 1rem;
+}
+
+img {
+    width: 300px;
+    height: 100%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
